@@ -20,7 +20,7 @@ export default function Home({ exploreData, cardsData }) {
       <main className="max-w-7xl mx-auto px-5 md:px-8 lg:px-10 py-5">
         <section className="py-5 space-y-5">
           <h2 className="font-medium text-xl md:text-2xl lg:text-3xl">
-            Explore Nearby
+            Inspiration for your next trip
           </h2>
           {/* pull some data from a server - api endpoints */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -32,7 +32,7 @@ export default function Home({ exploreData, cardsData }) {
 
         <section className="py-5 space-y-5">
           <h2 className="font-medium text-xl md:text-2xl lg:text-3xl">
-            Live Anywhere
+            Discover Airbnb Experiences
           </h2>
           <div className="flex overflow-x-auto scrollbar-hide">
             {cardsData?.map((item) => (
